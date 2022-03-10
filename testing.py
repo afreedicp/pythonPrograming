@@ -19,7 +19,7 @@ def panagram(q):
 
 def avrg(g):
      sum=0
-     if len(g)<=0:
+     if len(g)==0:
           return None 
      for i in g:
           sum=sum+i
